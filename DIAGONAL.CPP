@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a[2][2],i,j;
+clrscr();
+for(i=0;i<=1;i++)
+{
+for(j=0;j<=1;j++)
+{
+printf(" enter elements of matrices \n");
+for(i=0;i<=1;i++)
+{
+for(j=0;j<=1;j++)
+{
+scanf("%d",&a[i][j]);
+}
+}
+for(i=0;i<=0;i++)
+{
+for(j=0;j<=0;j++)
+{
+if(i==j)
+{
+a[i][j]=0;
+}
+}
+}
+for(i=0;i<=0;i++)
+{
+for(j=0;j<=0;j++)
+{
+printf("%d",a[i][j]);
+}
+}
+getch();
+}
+}
+}
