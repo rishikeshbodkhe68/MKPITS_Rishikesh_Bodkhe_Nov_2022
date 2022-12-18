@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a=1,i,j;
+for(i=1;i<=4;i++)
+{
+for(j=1;j<=i;j--)
+printf("%d",a);
+a++;
+printf("\n");
+}
+getch();
+}
